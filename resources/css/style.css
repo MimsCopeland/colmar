@@ -1,0 +1,15 @@
+html {
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+}
