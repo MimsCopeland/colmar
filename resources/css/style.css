@@ -41,6 +41,7 @@ h2 {
   font-weight: bold;
   color: #555;
   margin-bottom: 24px;
+  margin-top: 32px;
   line-height: 1.25;
 }
 
@@ -101,4 +102,22 @@ nav a {
   background-color: #555;
   justify-content: center;
   padding: 8px;
+}
+
+#practiceimg {
+  background-image: url(../images/information-main.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: blue;
+  height: 28rem;
+}
+
+.practice {
+  width: 60%;
+  margin-right: 24px;
+}
+
+.second-section {
+  margin: 32px 24px;
 }
