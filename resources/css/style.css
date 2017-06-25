@@ -3,6 +3,9 @@ html {
   font-size: 16px;
 }
 
+p {
+  line-height: 1.5;
+}
 html a {
   text-decoration: none;
 }
@@ -120,4 +123,16 @@ nav a {
 
 .second-section {
   margin: 32px 24px;
+  width: 100%;
+}
+
+.right {
+  width: 40%;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 35%;
 }
