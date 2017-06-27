@@ -53,6 +53,7 @@ h3 {
   color: #555;
   margin-bottom: 24px;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 nav ul {
@@ -121,6 +122,9 @@ nav a {
   margin-right: 24px;
 }
 
+
+
+
 .second-section {
   margin: 32px 24px;
   width: 100%;
@@ -135,4 +139,43 @@ nav a {
   background-position: top;
   background-size: cover;
   width: 35%;
+}
+
+
+
+
+
+/*the section with the headline "Start learning"*/
+.third-section {
+  text-align: center;
+  background-color: #bbb;
+  padding: 2rem;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.item2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: left;
+  background-color: white;
+  margin: 1rem;
+}
+.item2text {
+  padding: 1rem;
+}
+
+.item2text h4 {
+  text-transform: uppercase;
+}
+
+.item2 img {
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  width: 100%;
 }
